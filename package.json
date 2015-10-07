@@ -1,0 +1,20 @@
+{
+  "name": "node-webapp-template",
+  "version": "1.0.0",
+  "description": "Node template for webapps development",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "bower": "bower",
+    "build": "npm run gulp"
+  },
+  "author": "Rafael Felini",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nunjucks-render": "^1.0.0",
+    "gulp-rev": "^6.0.1",
+    "main-bower-files": "^2.9.0",
+    "nunjucks": "^2.1.0"
+  }
+}
